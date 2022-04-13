@@ -178,14 +178,14 @@ nnoremap <Leader>m :SyntasticToggleMode<CR>
 map <Space> <Plug>(easymotion-prefix)
 
 " incsearch
-map / <Plug>(incsearch-forward)
-map ? <Plug>(incsearch-backward)
-map g/ <Plug>(incsearch-stay)
+" map / <Plug>(incsearch-forward)
+" map ? <Plug>(incsearch-backward)
+" map g/ <Plug>(incsearch-stay)
 
 " incsearch-easymotion
-map z/ <Plug>(incsearch-easymotion-/)
-map z? <Plug>(incsearch-easymotion-?)
-map zg/ <Plug>(incsearch-easymotion-stay)
+" map z/ <Plug>(incsearch-easymotion-/)
+" map z? <Plug>(incsearch-easymotion-?)
+" map zg/ <Plug>(incsearch-easymotion-stay)
 
 " argwrap
 nnoremap <Leader>w :ArgWrap<CR>
