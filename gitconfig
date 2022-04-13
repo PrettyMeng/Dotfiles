@@ -105,6 +105,8 @@
 
 [user]
 	useConfigOnly = true
+	email = zhoumeng9904@sjtu.edu.cn
+	name = PrettyMeng
 
 [http]
 	cookieFile = ~/.gitcookies
