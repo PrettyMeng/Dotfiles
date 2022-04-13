@@ -38,3 +38,6 @@ fi
 if [ -f ~/.bashrc_local_after ]; then
     source ~/.bashrc_local_after
 fi
+
+# xv6 PATH for MIT 6.S081
+PATH=$PATH:/usr/local/opt/riscv-gnu-toolchain/bin
