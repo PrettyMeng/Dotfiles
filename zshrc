@@ -46,3 +46,21 @@ fi
 if [ -f ~/.shell_private ]; then
     source ~/.shell_private
 fi
+
+# Make Autocompletion case-insensitive
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/prettymeng/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/prettymeng/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/prettymeng/opt/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/prettymeng/opt/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
